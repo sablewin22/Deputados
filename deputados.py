@@ -6,3 +6,4 @@ st.dataframe(df)
 opcao = selectbox(
   'Escolha o partido que deseja ver os deputados que fazemn parte',
   ['deputados_2022.csv(partido)']
+)
