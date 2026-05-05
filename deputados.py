@@ -6,4 +6,4 @@ st.dataframe(df)
 partidos = st.text_input('Digite o partido que você queira ver os deputados:')
 
 if partidos:
-    st.dataframe(df[df['partido'] == partido])
+    st.dataframe(df[df['partido'] == partidos])
