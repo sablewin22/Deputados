@@ -11,8 +11,9 @@ if partidos:
     df_filtrado = df[df['partido'] == partidos.upper()]
 else:
     df_filtrado = df
-
+    
 if uf:
     df_filtrado = df_filtrado[df_filtrado['uf'] == uf.upper()]
 
 st.dataframe(df_filtrado)
+
