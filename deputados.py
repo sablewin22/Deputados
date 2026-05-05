@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd 
 df = pd.read_csv('deputados_2022.csv')
-st.dataframe(df[df['partido'].str.lower
+st.dataframe(df[df['partido'].str.lower()
 
 st.title('Veja a lista dos deputados de 2022!')
 
