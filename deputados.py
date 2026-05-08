@@ -5,7 +5,7 @@ df = pd.read_csv('deputados_2022.csv')
 st.title('Veja a lista dos deputados de 2022!')
 
 partidos = st.text_input('Digite o partido que você queira ver os deputados:')
-uf = st.text_input('Digite o UF dos deputados que você quer ver:')
+uf = st.text_input('Digite o UF dos deputados que você queira ver:')
 
 if partidos:
     df_filtrado = df[df['partido'] == partidos.upper()]
